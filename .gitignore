@@ -1,0 +1,63 @@
+# ============================================================
+#  Voxel Dominion / 体素城邦 — Unreal Engine 5.7 C++ 项目
+#  规则：只提交「能重建项目的源文件」，编译缓存一律不入库。
+#  当前仓库体积约 50MB；被排除的约 2.8GB。
+# ============================================================
+
+# ---------- Unreal Engine 生成目录（绝对不要提交）----------
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Platforms/*/Binaries/
+
+# UE 自动生成的工程/解决方案文件
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+
+# ---------- IDE 与编辑器缓存 ----------
+# .vscode 内含 1600+ 个 compileCommands_*.rsp 自动生成文件，整目录忽略
+.vscode/
+.idea/
+.vs/
+*.user
+*.userprefs
+
+# ---------- 运行时 / 调试产物 ----------
+*.log
+*.dmp
+crash-*.log
+monitor-*.log
+
+# ---------- Python 脚本缓存（Scripts/ 下有 build_*.py）----------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- 打包产物（发版本请走 GitHub Releases，不要入库）----------
+Packaged/
+Dist/
+Release/
+*.pak
+
+# ---------- 操作系统杂项 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ============================================================
+#  以下内容【必须提交】，不要加进忽略列表：
+#    Content/     27 个 .uasset/.umap，游戏资产本体（17MB）
+#    Source/      C++ 源码
+#    Config/      引擎与项目配置
+#    SourceArt/   美术源文件（32MB）
+#    Scripts/     资产生成脚本
+#    *.uproject   项目入口
+# ============================================================

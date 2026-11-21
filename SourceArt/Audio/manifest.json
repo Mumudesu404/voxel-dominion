@@ -1,0 +1,44 @@
+{
+  "authorship": "Original procedural synthesis; no recordings or external samples.",
+  "sample_rate": 44100,
+  "channels": 1,
+  "bits": 16,
+  "files": [
+    {
+      "name": "S_CannonBurst_01",
+      "duration": 0.24498866213151926,
+      "peak": 0.7,
+      "rms": 0.14180694415540704
+    },
+    {
+      "name": "S_CannonBurst_02",
+      "duration": 0.24498866213151926,
+      "peak": 0.7,
+      "rms": 0.1494360491605416
+    },
+    {
+      "name": "S_CannonBurst_03",
+      "duration": 0.24498866213151926,
+      "peak": 0.7,
+      "rms": 0.14576080556228554
+    },
+    {
+      "name": "S_ArrowRelease_01",
+      "duration": 0.36,
+      "peak": 0.58,
+      "rms": 0.08337096962341349
+    },
+    {
+      "name": "S_ArrowRelease_02",
+      "duration": 0.36,
+      "peak": 0.58,
+      "rms": 0.07895642534799183
+    },
+    {
+      "name": "S_ArrowRelease_03",
+      "duration": 0.36,
+      "peak": 0.58,
+      "rms": 0.0863576207715005
+    }
+  ]
+}
